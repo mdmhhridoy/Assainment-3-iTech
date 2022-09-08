@@ -35,10 +35,25 @@
     background-color: #F4FAFD;
 }
 
+.footer {
+    color: #F4FAFD;
+}
+.about-us {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 50px; 
+ }
+
 @media only screen and (min-width:689px)  and (max-width:992px){
 
   .invisible-section {
     display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
   }
 
 }
