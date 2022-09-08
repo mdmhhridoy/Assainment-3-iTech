@@ -1,0 +1,50 @@
+.carousel-caption h1,
+.carousel-caption p {
+    color: #fff;
+}
+
+.img {
+    
+    height: 30px;
+}
+
+.bg-lp {
+      background-color: #289BDE;
+      color: #fff;
+      border-radius: 10px;
+}
+.comma {
+    height: 50px;
+    width: 50px;
+}
+.fill {
+    color: orange;
+}
+
+.my-card-img img {
+    width: 170px;
+    height: 195px;
+    
+}
+
+.price-color {
+    color:#289BDE;
+}
+
+.bg-custom {
+    background-color: #F4FAFD;
+}
+
+@media only screen and (min-width:689px)  and (max-width:992px){
+
+  .invisible-section {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:688px) {
+    .invisible-section {
+        display: none;
+      }
+}
